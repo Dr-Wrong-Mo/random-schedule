@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+  <h1>Presentation Schedule</h1>
+  <hr>
+  <form action="">
+    <label for="group">
+      <h2>Add New Group</h2>
+    </label>
+    <input type="group" id="newGroup" autocomplete="off">
+    &nbsp;
+    <span><button type="button" onclick="addToList(document.getElementById('newGroup').value)">Add Group</button>
+      <button type="button" onclick="clearList()">Clear List</button></span>
+  </form>
+  <br>
+  <hr>
+  <h1>List of groups</h1>
+  <p id="groupList"><i class="placeholder">add groups to the list</i></p>
+  <hr>
+  <br>
+  <button type="button" onclick="shuffle()">Randomize Schedule</button>
+
+  <section id="schedule">
+
+  </section>
+  <br>
+  <hr>
+  <script src="/assets/script.js"></script>
+</body>
+
+</html>
