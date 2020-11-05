@@ -1,0 +1,9 @@
+Someday, maybe.
+
+1. Submit when user presses enter with cursor in text box.
+2. Put list back into array after shuffle.
+3. When first item is added to list, the sections below get pushed down.  Fix that.
+
+Complete
+
+1. Clear placeholder from textbox when an item is added to the list successfully.

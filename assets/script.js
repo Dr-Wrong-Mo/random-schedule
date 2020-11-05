@@ -26,6 +26,7 @@ function addToList(newGroup) {
     document.getElementById("schedule").innerHTML = "";
     document.getElementById("groupList").innerHTML = randomList;
     document.getElementById("newGroup").value = "";
+    document.getElementById("newGroup").placeholder = "";
     document.getElementById("newGroup").focus();
     document.getElementById("newGroup").select();
   }
